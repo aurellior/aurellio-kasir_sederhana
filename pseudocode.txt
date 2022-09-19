@@ -1,0 +1,52 @@
+Write(kode_barang)
+Read(kode_barang)
+Write( jumlah)
+Read(jumlah)
+While (status = true)
+
+
+If  kode_barang = 1 then
+Nama_barang1 = (“Buku”)
+harga_barang1 = 10000
+jumlah = jumlah1
+
+Else If  kode_barang  = 2 then
+Nama_barang2 = (“Pensil”)
+harga_barang1 = 3000
+jumlah = jumlah2
+
+Else If kode_barang  = 3 then
+Nama_baran3 =  (“Pulpen”)
+harga_barang3 = 5000
+jumlah = jumlah3)
+
+else
+write(“anda salah memasukkan kode, masukkan kembali)
+
+end if                          
+(status = true)
+Write(“masukkan 1 untuk beli lagi, 2 untuk lanjutkan”)
+Write(“pilihan”)
+Read( pilihan)
+If pilihan = 1 then
+(Status = false)
+
+Else If pilihan = 2 then
+(Status = true)
+
+else
+write(“anda salah menginputkan data”)
+writeln(“pilih satu untuk beli lagi, 2 untuk selesai)
+
+end if
+(status = true)
+Total_bayar =
+(jumlah1*harga_barang1+ jumlah2*harga_barang2 + jumlah3*harga_barang3)
+
+End if
+Writeln(nama_barang) ;
+Writeln(jumlah_barang );
+Writeln(dibayar);
+Writeln(kembalian);
+Writeln(“terima kasih sudah berbelanja di ninemart”);
+End
